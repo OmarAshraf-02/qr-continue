@@ -1,0 +1,12 @@
+{
+    "version": {
+        "license": "MIT"
+    },
+    "categories": {
+        "firefox": [
+            "other"
+        ]
+    },
+    "requires_payment": false,
+    "summary": "An extension that generates a QR Code linking to the current web page."
+}
