@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "QR Continue",
+    "version": "1.0",
+    "description": "Generatese a QR Code linking to the current page.",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "content_security_policy": "script-src 'self' 'wasm-unsafe-eval' https://cdnjs.cloudflare.com; object-src 'self'",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "qr.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/qrcode-solid.svg",
+        "default_title": "QR Continue",
+        "default_popup": "qr.html"
+    }
+}
