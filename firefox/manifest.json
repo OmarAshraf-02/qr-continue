@@ -4,9 +4,8 @@
     "version": "1.0",
     "description": "Generatese a QR Code linking to the current page.",
     "icons": {
-        "48": "icons/border-48.png"
+        "48": "icons/qrcode-solid.svg"
     },
-    "content_security_policy": "script-src 'self' 'wasm-unsafe-eval' https://cdnjs.cloudflare.com; object-src 'self'",
     "content_scripts": [
         {
             "matches": [
