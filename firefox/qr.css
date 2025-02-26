@@ -1,0 +1,42 @@
+body {
+    background: #26233a;
+}
+
+#mainBackground {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  background: #26233a;
+  align-items: center;
+  padding-top: 20px;
+}
+
+img {
+    display: none;
+}
+
+img[src*="data"] {
+   display: block;
+ }
+
+#qrImage {
+  width: 200px;
+  height: 200px;
+}
+
+#generate {
+  background: #9ccfd8;
+  font-weight: bold;
+  color: #26233a;
+  border: 2px solid #191724;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: inherit;
+  margin-top: auto;
+  margin-bottom: 5px;
+  width: 100px;
+  box-sizing: border-box;
+  padding: 2px 0;
+}
